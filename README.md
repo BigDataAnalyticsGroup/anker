@@ -59,3 +59,6 @@ This kernel was developed using the testbed backed by `Qemu`. I have used a trim
 2. ```mkdir -p /mnt/hugetlbfs```
 3. ```chown -R user:group /mnt/hugetlbfs```
 4. ```mount -t hugetlbfs -o uid=<userid>,gid=<groupid>,pagesize=2M,size=4G,nr_inodes=1024 none /mnt/hugetlbfs```
+
+#### License
+The code and technology is free for academic use. For commercial use, contact ankur@chainifydb.com
